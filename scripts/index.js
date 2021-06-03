@@ -5,15 +5,13 @@ const bugsList = document.querySelector('bugs-list')
 bugs.forEach(appendBugToList(bug));
 
 const appendBugToList = bug => {
-  const li = document.createElement('li')
-  const h3 = document.createElement('h3')
-  const img = document.createElement('img')
+  const li = createElement('li')
+  const h3 = createElement('h3')
+  const img = createElement('img')
 
-  li.innerText = bug
-  h3.innerText = bug
+  h3.text = bug
   img.src = bug
 
-  li.append(h3)
   li.append(img)
   bugsList.append(li)
 }
