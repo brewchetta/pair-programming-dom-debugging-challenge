@@ -1,0 +1,28 @@
+body {
+  --dotted-border: dotted white 2px;
+  background-color: black;
+}
+
+* {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  border-top: var(--dotted-border);
+  border-bottom: var(--dotted-border);
+}
+
+img {
+  border: var(--dotted-border);
+  height: 200px;
+}
+
+#bugs-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+li {
+  list-style-type: none;
+}
