@@ -2,7 +2,7 @@ console.log('Bugs List:', bugs);
 
 const bugsList = document.querySelector('bugs-list')
 
-bugs.forEach(appendBugToList(bug));
+bugs.forEach(appendBugToList());
 
 const appendBugToList = bug => {
   const li = createElement('li')
@@ -15,3 +15,5 @@ const appendBugToList = bug => {
   li.append(img)
   bugsList.append(li)
 }
+
+console.log("Bug script completed");
