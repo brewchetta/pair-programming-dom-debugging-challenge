@@ -4,7 +4,7 @@ In order to finish our application about insects, we need to fix all the bugs!
 
 To get started, fork and clone down the repo. There are no tests so you'll be debugging without external guidance. Open the `index.html` file with your favorite browser. You can do this in the browser (for example: `open index.html`, `chrome index.html`, `firefox index.html`).
 
-Editing only the code in `scripts/index.js`, fix all of the errors so that the various bugs and images display properly.
+Editing only the code in `scripts/index.js` and the script tags in `index.html`, fix all of the errors so that the various bugs and images display properly.
 
 Good luck!
 
